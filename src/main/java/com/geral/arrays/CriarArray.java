@@ -7,6 +7,12 @@ public class CriarArray {
 	
 	public static void main(String[] args) {
 
+		Produto p1 = new Produto();
+		Produto p2 = new Produto();
+		
+		Produto[] pLista = {p1, p2};
+		
+		
 		String[] array = {"Leite", "Banana", "Carne"};
 		Stream.of(array).forEach(System.out::println);
 		
